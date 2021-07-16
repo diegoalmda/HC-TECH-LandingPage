@@ -1,4 +1,6 @@
 const form = document.getElementById('form');
+const check = document.getElementById('checkbox');
+
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
