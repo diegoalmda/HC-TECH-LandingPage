@@ -38,7 +38,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 241, 47, 0.2);
+  background-color: rgba(196, 47, 255, 0.2);
   padding-left: 0.5rem;
   border-radius: 2rem;
 }
