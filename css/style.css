@@ -317,8 +317,7 @@ footer .contact img {
   .prod-container {
     max-width: 300px;
     min-width: 300px;
-    min-height: 400px;
-    max-height: 400px;
+    min-height: 450px;
     margin: 0.2rem 0.2rem;
   }
 }
@@ -330,7 +329,7 @@ footer .contact img {
   }
 
   .prod-container {
-    max-width: 400px;
+    max-width: 300px;
     min-width: 200px;
     min-height: 500px;
     margin: 0.2rem 0;
@@ -357,15 +356,17 @@ footer .contact img {
   }
 
   .offer-text {
-    padding: 2rem 0 2rem 0;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
   }
 
   .offer-text p {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .offer-text span {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .section-newsletter {
@@ -379,7 +380,7 @@ footer .contact img {
   .prod-container {
     max-width: 300px;
     min-width: 200px;
-    min-height: 300px;
+    max-height: 350px;
     margin: 0.2rem 0;
   }
 }
@@ -429,6 +430,13 @@ footer .contact img {
 
   .offer-text {
     padding: 2rem 0;
+  }
+
+  .prod-container {
+    max-width: 300px;
+    min-width: 200px;
+    min-height: 400px;
+    max-height: 420px;
   }
 
   #content input[type="submit"] {
