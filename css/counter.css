@@ -1,0 +1,84 @@
+.section-count {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(
+    to bottom right,
+    #000 0%,
+    #000 50%,
+    #401d5d 50%,
+    #401d5d 100%
+  );
+  padding-bottom: 0.2rem;
+}
+
+.section-count h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.section-count .countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.countdown-container .text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
+
+.countdown-container .countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .section-count h1 {
+    font-size: 3rem;
+  }
+
+  .countdown-container .text {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-count h1 {
+    font-size: 2rem;
+  }
+
+  .countdown-container .text {
+    font-size: 3rem;
+  }
+
+  .countdown-el span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-count h1 {
+    font-size: 1.5rem;
+  }
+
+  .countdown-container .text {
+    font-size: 3rem;
+  }
+
+  .countdown-el span {
+    font-size: 1rem;
+  }
+
+  .countdown-container .text {
+    margin: 0.5rem 0.8rem;
+  }
+}
